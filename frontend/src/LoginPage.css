@@ -1,0 +1,55 @@
+/* LoginPage.css */
+
+.login-container {
+    font-size: 20px;
+    font-family: sans-serif;
+    color:rgb(1, 53, 36);
+    max-width: 400px;
+    margin: 200px auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 0 50px #0735271a;
+    border: 3px solid rgb(29, 133, 110);
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:rgb(1, 53, 36);
+}
+
+.form-group {
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px; /* Add margin bottom for better separation */
+}
+
+.form-control {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 100%;
+    box-sizing: border-box; /* Ensure padding and border are included in width */
+}
+
+.btn-login {
+    background-color: rgb(29, 133, 110);
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 12px 20px; /* Increase padding to increase button size */
+    cursor: pointer;
+    width: 100%; /* Make button full width */
+    transition: background-color 0.3s; /* Add transition for smoother hover effect */
+    font-size: 15px; /* Increase font size */
+}
+
+.btn-login:hover {
+    background-color: black;
+}

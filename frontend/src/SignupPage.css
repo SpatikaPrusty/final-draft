@@ -1,0 +1,52 @@
+/* SignupPage.css */
+
+.signup-container {
+    font-size: 20px;
+    font-family: sans-serif;
+    color: rgb(1, 53, 36);
+    max-width: 600px;
+    margin: 200px auto; /* Center the container vertically */
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 0 50px rgba(7, 53, 39, 0.1);
+    border: 3px solid rgb(29, 133, 110);
+}
+
+.signup-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.signup-container form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.signup-container form input[type="text"],
+.signup-container form input[type="number"],
+.signup-container form input[type="email"],
+.signup-container form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    box-sizing: border-box; /* Ensure padding and border are included in width */
+}
+
+.signup-container form .btn-submit {
+    background-color: rgb(29, 133, 110);
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 15px 30px; /* Increase padding to increase button size */
+    cursor: pointer;
+    width: 100%; /* Make button full width */
+    transition: background-color 0.3s; /* Add transition for smoother hover effect */
+    font-size: 20px; /* Increase font size */
+}
+
+.signup-container form .btn-submit:hover {
+    background-color: black;
+}

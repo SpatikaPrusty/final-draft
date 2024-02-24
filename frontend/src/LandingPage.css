@@ -1,0 +1,58 @@
+/* src/LandingPage.css */
+
+.landing-page {
+  text-align: center;
+  padding: 50px;
+  color: rgb(1, 53, 36);
+  background: rgb(29, 133, 110);
+}
+
+.welcome-section {
+  display: flex;
+  justify-content: space-between; /* Spread items horizontally */
+  align-items: center; /* Center items vertically */
+  margin-bottom: 50px;
+}
+.welcome-content {
+  flex: 1;
+  padding-right: 20px;
+  text-align: left; /* Add padding to the right to separate content from image */
+  
+}
+
+.welcome-image {
+  flex: 1;
+  padding-left: 20px;
+}
+
+.welcome-image img {
+  max-width: 100%; /* Ensure image does not exceed its container width */
+  height: 400px; /* Maintain aspect ratio */
+  border-radius: 10px; /* Add border-radius for a rounded appearance */
+  margin-top: 5%;
+}
+
+.about-us-section {
+  background-color: #fff; /* White background for the About Us section */
+  padding: 20px; /* Add padding for content spacing */
+  border-radius: 10px; /* Add border-radius for a rounded appearance */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
+  color: rgb(1, 53, 36);
+}
+
+.about-us-section h2 {
+  color: rgb(29, 133, 110); /* Change heading color */
+}
+.get-started-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.get-started-button:hover {
+  background-color: rgb(1, 53, 36);
+}

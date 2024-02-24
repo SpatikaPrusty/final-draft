@@ -1,0 +1,54 @@
+/* src/FindPolicyPage.css */
+
+.find-policy-container {
+  margin: 20px auto; 
+  padding: 40px;
+  border-radius: 10px;
+  background: rgb(29, 133, 110); 
+  color: rgb(1, 53, 36); 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.find-policy-container h2 {
+  color: rgb(1, 53, 36); 
+  margin-bottom: 20px;
+}
+
+.policy{
+  color:rgb(1, 53, 36);
+  font-family: sans-serif;
+  font-size: 25px;
+}
+
+.content {
+  margin-bottom: 30px;
+  color:rgb(1, 53, 36);
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+.find-policy-button {
+  background-color: rgb(29, 133, 110);
+  color: white; 
+  border: none;
+  padding: 12px 24px; 
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; 
+}
+
+.find-policy-button:hover {
+  background-color: rgb(1, 53, 36); 
+}
+
+.find-policy-container p {
+  margin-bottom: 10px; 
+}
+
+.find-policy-container button {
+  margin-top: 20px; 
+}
+
+.policy{
+  margin:200px;
+}

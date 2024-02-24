@@ -12,7 +12,7 @@ const LoginPage = () => {
     const handleFindPolicy = async (e) => {
         e.preventDefault();
         try {
-            const response = await axios.post("http://localhost:3000/login", { mail, password });
+            const response = await axios.post("https://backend-claims.onrender.com/login", { mail, password });
             const { token,user } = response.data;
             localStorage.setItem("authToken", token);
 

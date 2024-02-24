@@ -30,7 +30,7 @@ const FindPolicyPage = () => {
     const handleFindPolicy = async () => {
         try {
             // Send a POST request using Axios
-            const response = await axios.post("http://localhost:3000/policy", formData);
+            const response = await axios.post("https://backend-claims.onrender.com/policy", formData);
             console.log("Response data:", response.data);
             if (response.status === 200) {
                 // Redirect to SuggestedPolicyPage with suggested policy as query parameter

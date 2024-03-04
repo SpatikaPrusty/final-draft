@@ -2,23 +2,22 @@ import React from 'react';
 import { useState } from 'react';
 import { Navigate } from 'react-router-dom';
 import axios from 'axios'; 
-import './SignupPage.css'; // Import the CSS file for styling
+import './SignupPage.css'; 
 
 const SignupPage = () => {
-    // State for form fields
+
     const [formData, setFormData] = useState({
         name: '',
         age: 0,
         gender: '',
-        isSmoke: true,
-        isDiabetic: true,
+        isSmoke: false,
+        isDiabetic: false,
         incomePerAnnum: 0,
         mail: '',
         password: ''
     });
     const [submitted, setSubmitted] = useState(false);
 
-    // Function to handle form field changes
     const handleChange = (e) => {
         const { name, value, type, checked } = e.target;
         setFormData(prevState => ({
@@ -27,18 +26,11 @@ const SignupPage = () => {
         }));
     };
 
-    // Function to handle form submission
-    // const handleSubmit = (e) => {
-    //     e.preventDefault();
-    //     // Add your form submission logic here
-    //     console.log(formData);
-    //     setSubmitted(true);
-    // };
     const handleSubmit = async (e) => {
         e.preventDefault();
         
         try {
-            await axios.post('https://backend-claims.onrender.com/register', formData);
+            await axios.post('http://localhost:3000/register', formData);
             setSubmitted(true);
         } catch (error) {
             console.error('Error submitting form:', error);
@@ -58,6 +50,7 @@ const SignupPage = () => {
                         name="name"
                         value={formData.name}
                         onChange={handleChange}
+                        placeholder="Please enter your name."
                     />
                 </label>
                 <br />
@@ -68,8 +61,8 @@ const SignupPage = () => {
                         name="age"
                         value={formData.age}
                         onChange={handleChange}
-                        inputMode="numeric" // Ensure numeric keyboard on mobile
-                        style={{ MozAppearance: 'textfield' }} // Hide arrows on Firefox
+                        inputMode="numeric" 
+                        style={{ MozAppearance: 'textfield' }}
                     />
                 </label>
                 <br />
@@ -110,8 +103,8 @@ const SignupPage = () => {
                         name="incomePerAnnum"
                         value={formData.incomePerAnnum}
                         onChange={handleChange}
-                        inputMode="numeric" // Ensure numeric keyboard on mobile
-                        style={{ MozAppearance: 'textfield' }} // Hide arrows on Firefox
+                        inputMode="numeric" 
+                        style={{ MozAppearance: 'textfield' }} 
                     />
                 </label>
                 <br />
@@ -132,6 +125,7 @@ const SignupPage = () => {
                     name="password"
                     value={formData.password}
                     onChange={handleChange}
+                    placeholder='Password should consist atleast one number'
                     />
                 </label>
                 <br />

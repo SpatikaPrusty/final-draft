@@ -1,10 +1,7 @@
-// src/LandingPage.js
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './LandingPage.css';
-import welcomeImage from './healthinsurance.jpg'; // Import your welcome image
-
+import welcomeImage from './healthinsurance.jpg'; 
 
 const LandingPage = () => {
   return (

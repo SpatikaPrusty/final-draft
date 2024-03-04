@@ -1,9 +1,7 @@
-// FindPolicyPage.js
 import React from 'react';
-import { useNavigate, useLocation } from 'react-router-dom'; // Import Navigate from react-router-dom
+import { useNavigate, useLocation } from 'react-router-dom'; 
 import axios from 'axios';
 import './FindPolicyPage.css';
-
 
 const FindPolicyPage = () => {
     const navigate = useNavigate();
@@ -21,19 +19,12 @@ const FindPolicyPage = () => {
         password: queryParams.get('password')
     };
 
-    // const handleFindPolicy = () => {
-    //     // Handle finding policy logic here
-    //     console.log('Find policy logic');
-    //     // Redirect to the suggested policy page
-    //     navigate("/suggested-policy");
-    // };
     const handleFindPolicy = async () => {
         try {
-            // Send a POST request using Axios
-            const response = await axios.post("https://backend-claims.onrender.com/policy", formData);
+            const response = await axios.post("http://localhost:3000/policy", formData);
             console.log("Response data:", response.data);
             if (response.status === 200) {
-                // Redirect to SuggestedPolicyPage with suggested policy as query parameter
+                
                 navigate(`/suggested-policy`, { state: { suggestedPolicy: response.data.suggestedPolicy } });
             } else {
                 console.error('Failed to fetch suggested policy:', response.statusText);

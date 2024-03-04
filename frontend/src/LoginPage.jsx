@@ -7,17 +7,17 @@ const LoginPage = () => {
     const [mail, setMail] = useState('');
     const [password, setPassword] = useState('');
     const [submitted, setSubmitted] = useState(false);
-    const [user, setUser] = useState(null); // State to hold user data
+    const [user, setUser] = useState(null);
 
     const handleFindPolicy = async (e) => {
         e.preventDefault();
         try {
-            const response = await axios.post("https://backend-claims.onrender.com/login", { mail, password });
+            const response = await axios.post("http://localhost:3000/login", { mail, password });
             const { token,user } = response.data;
             localStorage.setItem("authToken", token);
 
             setSubmitted(true);
-            setUser(user); // Set the user data from the response
+            setUser(user); 
         } catch (error) {
             console.error('Error logging in:', error.message);
         }

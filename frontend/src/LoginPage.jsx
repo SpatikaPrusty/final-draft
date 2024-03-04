@@ -8,17 +8,19 @@ const LoginPage = () => {
     const [password, setPassword] = useState('');
     const [submitted, setSubmitted] = useState(false);
     const [user, setUser] = useState(null);
+    const [error, setError] = useState('');
 
     const handleFindPolicy = async (e) => {
         e.preventDefault();
         try {
             const response = await axios.post("http://localhost:3000/login", { mail, password });
-            const { token,user } = response.data;
+            const { token, user } = response.data;
             localStorage.setItem("authToken", token);
 
             setSubmitted(true);
-            setUser(user); 
+            setUser(user);
         } catch (error) {
+            setError('Invalid email or password. Please try again.');
             console.error('Error logging in:', error.message);
         }
     };
@@ -30,6 +32,7 @@ const LoginPage = () => {
     return (
         <div className="login-container">
             <h2>Login</h2>
+            {error && <div className="error-message">{error}</div>}
             <form onSubmit={handleFindPolicy} className="login-form">
                 <div className="form-group">
                     <label htmlFor="email">Email:</label>

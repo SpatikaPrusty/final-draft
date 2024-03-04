@@ -2,6 +2,8 @@ import React from 'react';
 import { useNavigate, useLocation } from 'react-router-dom'; 
 import axios from 'axios';
 import './FindPolicyPage.css';
+import SuggestedPolicyPage from './SuggestedPolicyPage';
+
 
 const FindPolicyPage = () => {
     const navigate = useNavigate();
@@ -24,8 +26,7 @@ const FindPolicyPage = () => {
             const response = await axios.post("http://localhost:3000/policy", formData);
             console.log("Response data:", response.data);
             if (response.status === 200) {
-                
-                navigate(`/suggested-policy`, { state: { suggestedPolicy: response.data.suggestedPolicy } });
+                navigate(`/suggested-policy`, { state: { suggestedPolicy: response.data.suggestedPolicy, mail:formData.mail } });
             } else {
                 console.error('Failed to fetch suggested policy:', response.statusText);
             }

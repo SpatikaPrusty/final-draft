@@ -1,0 +1,13 @@
+__v,_id,age,createdAt,gender,incomePerAnnum,isDiabetic,isSmoke,mail,name,password,updatedAt
+0,Row(oid='65ca0f380f782c11e5d38477'),21,2024-02-12 17:59:44.691,female,500000,False,True,spatika@prusty.com,Spatika,spati,2024-02-12 17:59:44.691
+0,Row(oid='65cc5895110840fba4668348'),15,2024-02-14 11:37:17.954,female,1000000,True,False,kyla@test.com,kyla,$2b$10$oBoZDtqHLE9Rqc5Gw.JzMegrDdYlKg4SIgEh1dDd5x9ASVSDMZFke,2024-02-14 11:37:17.954
+0,Row(oid='65cc5adf1dbc2b92d2037845'),35,2024-02-14 11:47:03.941,male,800000,True,True,kenny@test.com,Kenny,1234567899,2024-02-14 11:47:03.941
+0,Row(oid='65cc5bc62298be4a03845c4e'),35,2024-02-14 11:50:54.654,female,800000,True,True,kenny@test.com,Kajall,1234567899,2024-02-14 11:50:54.654
+0,Row(oid='65cdfbebce5a2f6f8f4bbf6d'),20,2024-02-15 17:26:27.664,female,0,True,True,spatika@prusty.com,XYZ,spati,2024-02-15 17:26:27.664
+0,Row(oid='65cf6c3e57a114c186cf0451'),54,2024-02-16 19:37:58.788,male,2000000,False,True,vishnu@test.com,vishnu,1234567890,2024-02-16 19:37:58.788
+0,Row(oid='65cf6f6a57a114c186cf0455'),24,2024-02-16 19:51:30.852,female,2400000,True,True,m@m.com,tfhfj,1234,2024-02-16 19:51:30.852
+0,Row(oid='65cfa2ba2aef947af6a36144'),44,2024-02-16 23:30:26.654,female,699994,True,True,A@gmail.com,Anjali,1234,2024-02-16 23:30:26.654
+0,Row(oid='65d1978ad4acebce3acc2cbb'),65,2024-02-18 11:07:14.164,female,599997,False,True,g@abc.com,xdcgvnh,1234,2024-02-18 11:07:14.164
+0,Row(oid='65d199b2d4acebce3acc2cbd'),34,2024-02-18 11:16:26.552,male,500000,False,True,abc@test.com,Awaan,1234,2024-02-18 11:16:26.552
+0,Row(oid='65d19a85d4acebce3acc2cc1'),34,2024-02-18 11:19:57.667,male,600000,False,True,test@t.com,awaann,1234,2024-02-18 11:19:57.667
+0,Row(oid='65d19abbd4acebce3acc2cc4'),68,2024-02-18 11:20:51.738,male,900000,True,False,amitabh@test.com,Amitabh,1234,2024-02-18 11:20:51.738

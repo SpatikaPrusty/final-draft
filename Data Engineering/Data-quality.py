@@ -3,7 +3,7 @@ import pyspark
 from datetime import datetime, timedelta
 import pytz
 
-# Set up Spark configuration
+# Spark configuration
 conf = pyspark.SparkConf().set("spark.jars.packages",
                                "org.mongodb.spark:mongo-spark-connector_2.12:3.0.1") \
                            .setMaster("local") \
@@ -14,7 +14,7 @@ conf = pyspark.SparkConf().set("spark.jars.packages",
 sc = SparkContext(conf=conf)
 sqlC = SQLContext(sc)
 
-# Replace the placeholder values below with your actual MongoDB Atlas credentials and cluster details
+# MongoDB Atlas credentials and cluster details
 mongo_username = "spatikaprusty"
 mongo_password = "xEiSjulggyRHE3MU"
 mongo_cluster = "cluster0"
@@ -25,8 +25,6 @@ mongo_collection = "users"
 mongo_users_ip = f"mongodb+srv://{mongo_username}:{mongo_password}@{mongo_cluster}.bprftog.mongodb.net/{mongo_database}.users?retryWrites=true&w=majority"
 mongo_policies_ip = f"mongodb+srv://{mongo_username}:{mongo_password}@{mongo_cluster}.bprftog.mongodb.net/{mongo_database}.policies?retryWrites=true&w=majority"
 mongo_policyholders_ip = f"mongodb+srv://{mongo_username}:{mongo_password}@{mongo_cluster}.bprftog.mongodb.net/{mongo_database}.policyholders?retryWrites=true&w=majority"
-
-# print(mongo_ip)
 
 # Load data from MongoDB with the specified collection name
 users = sqlC.read.format("com.mongodb.spark.sql.DefaultSource").option("uri", mongo_users_ip).load()

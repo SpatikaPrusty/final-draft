@@ -21,5 +21,5 @@ def update_claim_status(policy_id, claim_status):
         writer.writerows(rows)
 
 # Example usage:
-update_claim_status('1001', 'open')  
-update_claim_status('1002', 'closed')  
+update_claim_status('10011', 'open')  
+update_claim_status('10012', 'closed')  

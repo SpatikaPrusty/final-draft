@@ -3,7 +3,7 @@ import pyspark
 from datetime import datetime, timedelta
 import pytz
 
-# Set up Spark configuration
+# Spark configuration
 conf = pyspark.SparkConf().set("spark.jars.packages",
                                "org.mongodb.spark:mongo-spark-connector_2.12:3.0.1") \
                            .setMaster("local") \
@@ -14,7 +14,7 @@ conf = pyspark.SparkConf().set("spark.jars.packages",
 sc = SparkContext(conf=conf)
 sqlC = SQLContext(sc)
 
-# Replace the placeholder values below with your actual MongoDB Atlas credentials and cluster details
+# MongoDB Atlas credentials and cluster details
 mongo_username = "spatikaprusty"
 mongo_password = "xEiSjulggyRHE3MU"
 mongo_cluster = "cluster0"
@@ -39,7 +39,7 @@ users.show()
 created_timestamp="2024-02-21 12:00:00"
 updated_timestamp="2024-03-03 12:00:00"
 
-# Query to select users whose createdAt timestamp is more recent than the provided timestamp
+# Query to select users
 created_users = sqlC.sql(f"SELECT * FROM users WHERE createdAt < '{created_timestamp}'")
 updated_users = sqlC.sql(f"SELECT * FROM users WHERE updatedAt > '{updated_timestamp}'")
 

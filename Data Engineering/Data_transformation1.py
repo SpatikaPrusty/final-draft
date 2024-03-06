@@ -1,19 +1,4 @@
 import csv
-from cryptography.fernet import Fernet
-
-#Define the encryption key
-key = Fernet.generate_key()
-cipher_suite = Fernet(key)
-
-def encrypt_data(data):
-    # Encrypt the data using Fernet encryption
-    encrypted_data = cipher_suite.encrypt(data.encode())
-    return encrypted_data.decode()
-
-def mask_data(data):
-    # Mask sensitive data by replacing characters with placeholders
-    return 'XXXX'  # Replace with your masking strategy
-
 def update_claim_status(policy_id, claim_status):
     # Read the dataset
     with open('C:/Users/spati/OneDrive/Desktop/FINAL DRAFT/Data Engineering/datasheet.csv', 'r') as file:

@@ -80,3 +80,28 @@ if incorrect_names_count > 0:
     print(f"Incorrect names found containing numbers in the 'name' column: {incorrect_names_count}")
 else:
     print("No incorrect names")
+
+import csv
+
+# Perform checks
+missing_age_count = users_df.filter(col('gender').isNull()).count()
+invalid_age_count = users_df.filter(col('age') < 0).count()
+duplicate_entries_count = users_df.groupBy('mail').count().filter('count > 1').count()
+outliers_count = users_df.filter(col('incomePerAnnum') < 0).count()
+incorrect_names_count = users_df.filter(col('name').rlike('\\d+')).count()
+
+# Write results to a CSV file
+report_data = [
+    ["Check", "Result"],
+    ["Missing values in 'gender' column", missing_age_count],
+    ["Invalid values in 'age' column", invalid_age_count],
+    ["Duplicate entries based on 'mail' column", duplicate_entries_count],
+    ["Outliers in 'incomePerAnnum' column", outliers_count],
+    ["Incorrect names containing numbers in 'name' column", incorrect_names_count]
+]
+
+with open('data_quality_report.csv', 'w', newline='') as csvfile:
+    csvwriter = csv.writer(csvfile)
+    csvwriter.writerows(report_data)
+
+print("Report generated successfully.")

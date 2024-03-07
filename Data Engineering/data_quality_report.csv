@@ -1,0 +1,6 @@
+Check,Result
+Missing values in 'gender' column,0
+Invalid values in 'age' column,2
+Duplicate entries based on 'mail' column,3
+Outliers in 'incomePerAnnum' column,1
+Incorrect names containing numbers in 'name' column,1

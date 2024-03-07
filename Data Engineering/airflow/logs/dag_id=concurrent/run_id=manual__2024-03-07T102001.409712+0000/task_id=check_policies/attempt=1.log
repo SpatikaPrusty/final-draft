@@ -1,0 +1,15 @@
+[2024-03-07T10:20:52.255+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: concurrent.check_policies manual__2024-03-07T10:20:01.409712+00:00 [queued]>
+[2024-03-07T10:20:52.268+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: concurrent.check_policies manual__2024-03-07T10:20:01.409712+00:00 [queued]>
+[2024-03-07T10:20:52.269+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2024-03-07T10:20:52.315+0000] {taskinstance.py:2214} INFO - Executing <Task(PythonOperator): check_policies> on 2024-03-07 10:20:01.409712+00:00
+[2024-03-07T10:20:52.327+0000] {standard_task_runner.py:60} INFO - Started process 546 to run task
+[2024-03-07T10:20:52.331+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'concurrent', 'check_policies', 'manual__2024-03-07T10:20:01.409712+00:00', '--job-id', '29', '--raw', '--subdir', 'DAGS_FOLDER/S_Concurrent.py', '--cfg-path', '/tmp/tmp5yx4bkki']
+[2024-03-07T10:20:52.334+0000] {standard_task_runner.py:88} INFO - Job 29: Subtask check_policies
+[2024-03-07T10:20:52.440+0000] {task_command.py:423} INFO - Running <TaskInstance: concurrent.check_policies manual__2024-03-07T10:20:01.409712+00:00 [running]> on host 412bd1a2be7f
+[2024-03-07T10:20:52.596+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='concurrent' AIRFLOW_CTX_TASK_ID='check_policies' AIRFLOW_CTX_EXECUTION_DATE='2024-03-07T10:20:01.409712+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-03-07T10:20:01.409712+00:00'
+[2024-03-07T10:20:53.424+0000] {logging_mixin.py:188} INFO - {'_id': '65de64ad0e2ed1c187fdb87c', 'name': 'Nishant ', 'policyid': 'POL002', 'sumAssured': 500000, 'leftAmount': 500000, 'premiumAmount': 1000, 'email': 'nishant@gmail.com', 'startDate': 1709073581509.0, 'endDate': 2024433581509.0, '__v': 0}
+[2024-03-07T10:20:53.425+0000] {logging_mixin.py:188} INFO - {'_id': '65e5bd9c26ed8df449496554', 'name': 'Souravi', 'policyid': 'POL002', 'sumAssured': 500000, 'leftAmount': 499900, 'premiumAmount': 1000, 'email': 'souravaji@gmail.com', 'startDate': 1709555100176.0, 'endDate': 2024915100176.0, '__v': 0}
+[2024-03-07T10:20:53.426+0000] {python.py:202} INFO - Done. Returned value was: None
+[2024-03-07T10:20:53.441+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=concurrent, task_id=check_policies, execution_date=20240307T102001, start_date=20240307T102052, end_date=20240307T102053
+[2024-03-07T10:20:53.550+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-03-07T10:20:53.597+0000] {taskinstance.py:3309} INFO - 1 downstream tasks scheduled from follow-on schedule check

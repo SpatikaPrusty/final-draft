@@ -1,0 +1,32 @@
+[2024-03-07T10:21:15.258+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: concurrent.check_claims manual__2024-03-07T10:20:01.409712+00:00 [queued]>
+[2024-03-07T10:21:15.399+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: concurrent.check_claims manual__2024-03-07T10:20:01.409712+00:00 [queued]>
+[2024-03-07T10:21:15.401+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2024-03-07T10:21:15.576+0000] {taskinstance.py:2214} INFO - Executing <Task(PythonOperator): check_claims> on 2024-03-07 10:20:01.409712+00:00
+[2024-03-07T10:21:15.749+0000] {standard_task_runner.py:60} INFO - Started process 564 to run task
+[2024-03-07T10:21:15.838+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'concurrent', 'check_claims', 'manual__2024-03-07T10:20:01.409712+00:00', '--job-id', '30', '--raw', '--subdir', 'DAGS_FOLDER/S_Concurrent.py', '--cfg-path', '/tmp/tmp0o8ei4uf']
+[2024-03-07T10:21:15.932+0000] {standard_task_runner.py:88} INFO - Job 30: Subtask check_claims
+[2024-03-07T10:21:17.612+0000] {task_command.py:423} INFO - Running <TaskInstance: concurrent.check_claims manual__2024-03-07T10:20:01.409712+00:00 [running]> on host 412bd1a2be7f
+[2024-03-07T10:21:18.832+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='concurrent' AIRFLOW_CTX_TASK_ID='check_claims' AIRFLOW_CTX_EXECUTION_DATE='2024-03-07T10:20:01.409712+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-03-07T10:20:01.409712+00:00'
+[2024-03-07T10:21:21.219+0000] {logging_mixin.py:188} INFO - {'_id': '65cb610bc014efaf7ac2cee5', 'claimamt': 19897, 'claimdate': 89, 'policyHolderId': 23, '__v': 0}
+[2024-03-07T10:21:21.221+0000] {logging_mixin.py:188} INFO - {'_id': '65dc5254db6cb3e9b0bca823', 'claimamt': 500, 'claimdate': 1708937812798.0, 'email': 'nishant@gmail.com', '__v': 0}
+[2024-03-07T10:21:21.225+0000] {logging_mixin.py:188} INFO - {'_id': '65dc526adb6cb3e9b0bca825', 'claimamt': 500, 'claimdate': 1708937834276.0, 'email': 'nishant@gmail.com', '__v': 0}
+[2024-03-07T10:21:21.226+0000] {logging_mixin.py:188} INFO - {'_id': '65dc526edb6cb3e9b0bca827', 'claimamt': 500, 'claimdate': 1708937838199.0, 'email': 'nishant@gmail.com', '__v': 0}
+[2024-03-07T10:21:21.227+0000] {logging_mixin.py:188} INFO - {'_id': '65dc58b97a72a34b1df01b3d', 'claimamt': 100, 'claimdate': 1708939449672.0, 'email': 'nishant@gmail.com', '__v': 0}
+[2024-03-07T10:21:21.228+0000] {logging_mixin.py:188} INFO - {'_id': '65dc58c27a72a34b1df01b3f', 'claimamt': 100, 'claimdate': 1708939458476.0, 'email': 'nishant@gmail.com', '__v': 0}
+[2024-03-07T10:21:21.229+0000] {logging_mixin.py:188} INFO - {'_id': '65dc62111f94e13a684e6790', 'claimamt': 1, 'claimdate': 1708941841280.0, 'email': 'nishant@gmail.com', '__v': 0}
+[2024-03-07T10:21:21.229+0000] {logging_mixin.py:188} INFO - {'_id': '65dc629f1f94e13a684e6795', 'claimamt': 1, 'claimdate': 1708941983081.0, 'email': 'nishant@gmail.com', '__v': 0}
+[2024-03-07T10:21:21.231+0000] {logging_mixin.py:188} INFO - {'_id': '65dc629f1f94e13a684e6797', 'claimamt': 1, 'claimdate': 1708941983689.0, 'email': 'nishant@gmail.com', '__v': 0}
+[2024-03-07T10:21:21.232+0000] {logging_mixin.py:188} INFO - {'_id': '65dc62c11f94e13a684e679a', 'claimamt': 1, 'claimdate': 1708942017761.0, 'email': 'nishant@gmail.com', '__v': 0}
+[2024-03-07T10:21:21.233+0000] {logging_mixin.py:188} INFO - {'_id': '65dc64211f94e13a684e67a1', 'claimamt': 300, 'claimdate': 1708942369771.0, 'email': 'nishant@gmail.com', '__v': 0}
+[2024-03-07T10:21:21.238+0000] {logging_mixin.py:188} INFO - {'_id': '65dc66161f94e13a684e67a8', 'claimamt': 122222, 'claimdate': 1708942870550.0, 'email': 'nishant@gmail.com', '__v': 0}
+[2024-03-07T10:21:21.239+0000] {logging_mixin.py:188} INFO - {'_id': '65dc66261f94e13a684e67aa', 'claimamt': 12223, 'claimdate': 1708942886802.0, 'email': 'nishant@gmail.com', '__v': 0}
+[2024-03-07T10:21:21.240+0000] {logging_mixin.py:188} INFO - {'_id': '65dc7ae7bdd3419130e90377', 'claimamt': 20, 'claimdate': 1708948199133.0, '__v': 0}
+[2024-03-07T10:21:21.241+0000] {logging_mixin.py:188} INFO - {'_id': '65dcf6a8065f96bb9152d778', 'claimamt': 50, 'claimdate': 1708979880559.0, 'email': 'spqwe@gmail.com', 'reason': 'Sourav', '__v': 0}
+[2024-03-07T10:21:21.242+0000] {logging_mixin.py:188} INFO - {'_id': '65dd1522e3d4c5eeb3252822', 'claimamt': 100, 'claimdate': 1708987682046.0, 'email': 'spqwe@gmail.com', 'reason': 'Hello', '__v': 0}
+[2024-03-07T10:21:21.243+0000] {logging_mixin.py:188} INFO - {'_id': '65dd7bfaaf8ae2686a656c62', 'claimamt': 16968, 'claimdate': 1709014010107.0, 'email': 'spqwe@gmail.com', 'reason': '2nd claim\n', 'createdAt': datetime.datetime(2024, 2, 27, 6, 6, 50, 228000), 'updatedAt': datetime.datetime(2024, 2, 27, 6, 6, 50, 228000), '__v': 0}
+[2024-03-07T10:21:21.244+0000] {logging_mixin.py:188} INFO - {'_id': '65dd7c69a0781e42b8dd3aad', 'claimamt': 1, 'claimdate': 1709014121122.0, 'email': 'spqwe@gmail.com', 'reason': '3rd claim', 'createdAt': datetime.datetime(2024, 2, 27, 6, 8, 41, 243000), 'updatedAt': datetime.datetime(2024, 2, 27, 6, 8, 41, 243000), '__v': 0}
+[2024-03-07T10:21:21.244+0000] {logging_mixin.py:188} INFO - {'_id': '65e5bdae26ed8df449496559', 'claimamt': 100, 'claimdate': 1709555117685.0, 'email': 'souravaji@gmail.com', 'reason': 'I am ded', 'createdAt': datetime.datetime(2024, 3, 4, 12, 25, 18, 83000), 'updatedAt': datetime.datetime(2024, 3, 4, 12, 25, 18, 83000), '__v': 0}
+[2024-03-07T10:21:21.245+0000] {python.py:202} INFO - Done. Returned value was: None
+[2024-03-07T10:21:21.508+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=concurrent, task_id=check_claims, execution_date=20240307T102001, start_date=20240307T102115, end_date=20240307T102121
+[2024-03-07T10:21:21.613+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-03-07T10:21:21.654+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,44 @@
+[2024-03-07T09:46:56.824+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Sequential.check_users manual__2024-03-07T09:46:36.305236+00:00 [queued]>
+[2024-03-07T09:46:56.854+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Sequential.check_users manual__2024-03-07T09:46:36.305236+00:00 [queued]>
+[2024-03-07T09:46:56.855+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2024-03-07T09:46:56.955+0000] {taskinstance.py:2214} INFO - Executing <Task(PythonOperator): check_users> on 2024-03-07 09:46:36.305236+00:00
+[2024-03-07T09:46:57.034+0000] {standard_task_runner.py:60} INFO - Started process 281 to run task
+[2024-03-07T09:46:57.103+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'Sequential', 'check_users', 'manual__2024-03-07T09:46:36.305236+00:00', '--job-id', '23', '--raw', '--subdir', 'DAGS_FOLDER/S_sequence.py', '--cfg-path', '/tmp/tmp92q9n7qb']
+[2024-03-07T09:46:57.122+0000] {standard_task_runner.py:88} INFO - Job 23: Subtask check_users
+[2024-03-07T09:46:58.022+0000] {task_command.py:423} INFO - Running <TaskInstance: Sequential.check_users manual__2024-03-07T09:46:36.305236+00:00 [running]> on host 412bd1a2be7f
+[2024-03-07T09:46:58.882+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='Sequential' AIRFLOW_CTX_TASK_ID='check_users' AIRFLOW_CTX_EXECUTION_DATE='2024-03-07T09:46:36.305236+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-03-07T09:46:36.305236+00:00'
+[2024-03-07T09:47:01.684+0000] {logging_mixin.py:188} INFO - {'_id': '65ca00a38fccbe36d0c9f3bc', 'name': 'Sourav', 'mail': 'pandu.com', 'age': 16, '__v': 0}
+[2024-03-07T09:47:01.685+0000] {logging_mixin.py:188} INFO - {'_id': '65ca0395b4a78f11075bd734', 'name': 'Sourav', 'mail': 'pandu.com', 'age': 16, '__v': 0}
+[2024-03-07T09:47:01.687+0000] {logging_mixin.py:188} INFO - {'_id': '65cb485ba75f4e83a524424e', 'name': 'Sourav', 'mail': 'pandu.com', 'age': 16, '__v': 0}
+[2024-03-07T09:47:01.689+0000] {logging_mixin.py:188} INFO - {'_id': '65cb486d67ede1cdf9193013', 'name': 'Sourav', 'mail': 'pandu.com', 'age': 16, '__v': 0}
+[2024-03-07T09:47:01.689+0000] {logging_mixin.py:188} INFO - {'_id': '65cb489bd62a0598605fa974', 'name': 'Sourav', 'mail': 'pandu.com', 'age': 16, '__v': 0}
+[2024-03-07T09:47:01.690+0000] {logging_mixin.py:188} INFO - {'_id': '65cb499c08077c0e00db709d', 'name': 'Sourav', 'mail': 'pandu.com', 'age': 16, '__v': 0}
+[2024-03-07T09:47:01.691+0000] {logging_mixin.py:188} INFO - {'_id': '65cb504351ea4ed8e6f4b4e5', 'name': 'Sourav', 'mail': 'pandu.com', 'age': 16, '__v': 0}
+[2024-03-07T09:47:01.693+0000] {logging_mixin.py:188} INFO - {'_id': '65cb50f751ea4ed8e6f4b4e8', 'name': 'Sourav', 'mail': 'spanigrahi.gmail.com', 'age': 20, 'password': 'sourav123', '__v': 0}
+[2024-03-07T09:47:01.693+0000] {logging_mixin.py:188} INFO - {'_id': '65cb513d9466747a31ec3ee3', 'name': 'Sourav', 'mail': 'pandu.com', 'age': 16, '__v': 0}
+[2024-03-07T09:47:01.694+0000] {logging_mixin.py:188} INFO - {'_id': '65cb5221173ef11c52892829', 'name': 'Sourav', 'mail': 'pandu.com', 'age': 16, '__v': 0}
+[2024-03-07T09:47:01.695+0000] {logging_mixin.py:188} INFO - {'_id': '65cb52241ed0509b2dfa6cc8', 'name': 'Sourav', 'mail': 'pandu.com', 'age': 16, '__v': 0}
+[2024-03-07T09:47:01.695+0000] {logging_mixin.py:188} INFO - {'_id': '65cb52ba6dee4450b86d570c', 'name': 'Sourav', 'mail': 'pandu.com', 'age': 16, '__v': 0}
+[2024-03-07T09:47:01.696+0000] {logging_mixin.py:188} INFO - {'_id': '65cb52d6aac2f5547455863f', 'name': 'Sourav', 'mail': 'pandu.com', 'age': 16, '__v': 0}
+[2024-03-07T09:47:01.697+0000] {logging_mixin.py:188} INFO - {'_id': '65cb60f8c014efaf7ac2cee2', 'name': 'Sourav', 'mail': 'pandu.com', 'age': 16, '__v': 0}
+[2024-03-07T09:47:01.698+0000] {logging_mixin.py:188} INFO - {'_id': '65cc51d9123081ead2a4e0fd', 'name': 'Sourav', 'mail': 'pandu.com', 'age': 16, '__v': 0}
+[2024-03-07T09:47:01.700+0000] {logging_mixin.py:188} INFO - {'_id': '65cf58899dfffd3b816cc35a', 'password': 'hi123', '__v': 0}
+[2024-03-07T09:47:01.702+0000] {logging_mixin.py:188} INFO - {'_id': '65d38aa0b022e93f41cbba61', 'password': 'ani123', '__v': 0}
+[2024-03-07T09:47:01.703+0000] {logging_mixin.py:188} INFO - {'_id': '65d38c18b022e93f41cbba63', 'password': 'asni123', '__v': 0}
+[2024-03-07T09:47:01.703+0000] {logging_mixin.py:188} INFO - {'_id': '65d38fdb650aee26b0ff8265', '__v': 0}
+[2024-03-07T09:47:01.705+0000] {logging_mixin.py:188} INFO - {'_id': '65d3ab629d0f71fe1b226057', 'password': '123', '__v': 0}
+[2024-03-07T09:47:01.706+0000] {logging_mixin.py:188} INFO - {'_id': '65d3b2d9348305d240e57644', 'password': '1234', '__v': 0}
+[2024-03-07T09:47:01.707+0000] {logging_mixin.py:188} INFO - {'_id': '65d651c20c53749e223a5d57', 'password': '123', '__v': 0}
+[2024-03-07T09:47:01.708+0000] {logging_mixin.py:188} INFO - {'_id': '65d66bfe1c9f2516b8e8e9c2', 'password': '123', '__v': 0}
+[2024-03-07T09:47:01.709+0000] {logging_mixin.py:188} INFO - {'_id': '65d66c89de033570f9f7c909', 'email': 'souravji@gmail.com', 'password': '123', '__v': 0}
+[2024-03-07T09:47:01.710+0000] {logging_mixin.py:188} INFO - {'_id': '65d66d0ede033570f9f7c90e', 'email': 'souravjgi@gmail.com', 'password': '123', '__v': 0}
+[2024-03-07T09:47:01.711+0000] {logging_mixin.py:188} INFO - {'_id': '65d673da5c3f133030a9a97f', 'name': 'Sourav Bhai', 'email': 'souravji@gmail.com', 'age': 22, 'password': '123', '__v': 0}
+[2024-03-07T09:47:01.712+0000] {logging_mixin.py:188} INFO - {'_id': '65d675915c3f133030a9a982', 'name': 'Souravi', 'email': 'souravaji@gmail.com', 'age': 12, 'password': '123', '__v': 0}
+[2024-03-07T09:47:01.712+0000] {logging_mixin.py:188} INFO - {'_id': '65d678275c3f133030a9a989', 'name': 'Shraddha', 'email': 'shraddhaji@gmail.com', 'age': 21, 'password': '1234', '__v': 0}
+[2024-03-07T09:47:01.713+0000] {logging_mixin.py:188} INFO - {'_id': '65dba3e09728e3b5b0cab25d', 'name': 'Nishant ', 'email': 'nishant@gmail.com', 'age': 35, 'password': '123', '__v': 0}
+[2024-03-07T09:47:01.714+0000] {logging_mixin.py:188} INFO - {'_id': '65dbb2f0a5775f5635ab1499', 'name': 'Sangam', 'email': 'sangam@gmail.com', 'age': 12, 'password': '123', '__v': 0}
+[2024-03-07T09:47:01.720+0000] {logging_mixin.py:188} INFO - {'_id': '65dc8f3a56b05328e5d6327f', 'name': 'Sourav H', 'email': 'spqwe@gmail.com', 'age': 22, 'password': '123', '__v': 0}
+[2024-03-07T09:47:01.721+0000] {python.py:202} INFO - Done. Returned value was: None
+[2024-03-07T09:47:01.756+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=Sequential, task_id=check_users, execution_date=20240307T094636, start_date=20240307T094656, end_date=20240307T094701
+[2024-03-07T09:47:01.859+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-03-07T09:47:01.952+0000] {taskinstance.py:3309} INFO - 1 downstream tasks scheduled from follow-on schedule check

@@ -35,7 +35,7 @@ users=users.drop("_id")
 users=users.drop("__v")
 users=users.drop("updatedAt")
 
-created_timestamp="2024-02-21 12:00:00"
+created_timestamp="2024-03-21 12:00:00"
 updated_timestamp="2024-03-03 12:00:00"
 
 # Query to select users whose createdAt timestamp is more recent than the provided timestamp
@@ -43,7 +43,7 @@ created_users = sqlC.sql(f"SELECT * FROM users WHERE createdAt < '{created_times
 updated_users = sqlC.sql(f"SELECT * FROM users WHERE updatedAt > '{updated_timestamp}'")
 
 # csv and parquet format
-created_users.toPandas().to_csv('c_output_file.csv', index=False)
+created_users.toPandas().to_csv('latest_c_output_file.csv', index=False)
 created_users.toPandas().to_parquet('p_output_file.parquet', engine='pyarrow')
 
 # Display the user details

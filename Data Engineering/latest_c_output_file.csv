@@ -1,0 +1,25 @@
+__v,_id,age,createdAt,gender,incomePerAnnum,isDiabetic,isSmoke,mail,name,password,updatedAt
+0,Row(oid='65ca0f380f782c11e5d38477'),-21,2024-02-12 17:59:44.691,female,500000,False,True,spatika@prusty.com,Spat123ika,spati,2024-02-12 17:59:44.691
+0,Row(oid='65cc5895110840fba4668348'),15,2024-02-14 11:37:17.954,female,1000000,True,False,kyla@test.com,kyla,$2b$10$oBoZDtqHLE9Rqc5Gw.JzMegrDdYlKg4SIgEh1dDd5x9ASVSDMZFke,2024-02-14 11:37:17.954
+0,Row(oid='65cc5adf1dbc2b92d2037845'),-35,2024-02-14 11:47:03.941,male,800000,True,True,kenny@test.com,Kenny,1234567899,2024-02-14 11:47:03.941
+0,Row(oid='65cc5bc62298be4a03845c4e'),35,2024-02-14 11:50:54.654,female,800000,True,True,kenny@test.com,Kajall,1234567899,2024-02-14 11:50:54.654
+0,Row(oid='65cdfbebce5a2f6f8f4bbf6d'),20,2024-02-15 17:26:27.664,female,0,True,True,spatika@prusty.com,XYZ,spati,2024-02-15 17:26:27.664
+0,Row(oid='65cf6c3e57a114c186cf0451'),54,2024-02-16 19:37:58.788,male,2000000,False,True,vishnu@test.com,vishnu,1234567890,2024-02-16 19:37:58.788
+0,Row(oid='65cf6f6a57a114c186cf0455'),24,2024-02-16 19:51:30.852,female,-2400000,True,True,m@m.com,tfhfj,1234,2024-02-16 19:51:30.852
+0,Row(oid='65cfa2ba2aef947af6a36144'),44,2024-02-16 23:30:26.654,female,699994,True,True,A@gmail.com,Anjali,1234,2024-02-16 23:30:26.654
+0,Row(oid='65d1978ad4acebce3acc2cbb'),65,2024-02-18 11:07:14.164,female,599997,False,True,g@abc.com,xdcgvnh,1234,2024-02-18 11:07:14.164
+0,Row(oid='65d199b2d4acebce3acc2cbd'),34,2024-02-18 11:16:26.552,male,500000,False,True,abc@test.com,Awaan,1234,2024-02-18 11:16:26.552
+0,Row(oid='65d19a85d4acebce3acc2cc1'),34,2024-02-18 11:19:57.667,male,600000,False,True,test@t.com,awaann,1234,2024-02-18 11:19:57.667
+0,Row(oid='65d19abbd4acebce3acc2cc4'),68,2024-02-18 11:20:51.738,male,900000,True,False,amitabh@test.com,Amitabh,1234,2024-02-18 11:20:51.738
+0,Row(oid='65d96eca3b00d585aa64ac72'),20,2024-02-24 09:51:30.826,female,1000000,False,True,deba@test.com,Debahuti Mishra,deba@test,2024-02-24 09:51:30.826
+0,Row(oid='65d97b57ea358c395be2407e'),21,2024-02-24 10:45:03.461,female,500000,False,True,lucky@test.com,Lucky,lucky123,2024-02-24 10:45:03.461
+0,Row(oid='65d9ac17f485fbe8ca85c241'),37,2024-02-24 14:13:03.998,male,600000,False,False,test@t.com,vhjbjnk,1234,2024-02-24 14:13:03.998
+0,Row(oid='65dc9219bf94157beb2c660c'),56,2024-02-26 18:58:57.304,male,500000,False,True,abc@t.com,gvghbkj,1010,2024-02-26 18:58:57.304
+0,Row(oid='65e2b525f952d05d949867e2'),39,2024-03-02 10:42:05.610,male,2300000,False,True,arun@sandhi.com,Arun Sandhi,arun@123,2024-03-02 10:42:05.610
+0,Row(oid='65e2b7cdf8eea4e3f6a032ac'),29,2024-03-02 10:53:25.847,female,1300000,True,False,akansha@agarwal.com,Akansha Agarwal,akansha@agarwal1,2024-03-02 10:53:25.847
+0,Row(oid='65e57494ad0243f10c4ea105'),39,2024-03-04 12:43:24.496,male,2000000,True,False,nipun@prusty.com,Nipun Prusty,nipun@123,2024-03-04 12:43:24.496
+0,Row(oid='65e57717ad0243f10c4ea10c'),38,2024-03-04 12:54:07.496,female,1000000,False,True,rushali@sharma.com,Rushali Sharma,rushali@123,2024-03-04 12:54:07.496
+0,Row(oid='65e597568fac5c57f91f671c'),28,2024-03-04 15:11:42.512,male,1000000,False,False,sourav@test.com,Sourav,sourav@123,2024-03-04 15:11:42.512
+0,Row(oid='65e969f4dc03ee112807c33b'),34,2024-03-07 12:47:08.619,male,1000000,True,False,rashmi@ranjan.com,Rashmi Ranjan,rashmi@123,2024-03-07 12:47:08.619
+0,Row(oid='65e96aab2dcb157419b9241b'),49,2024-03-07 12:50:11.044,,2000000,True,True,sonika@juttuka.com,Sonika Juttuka,sonika@123,2024-03-07 12:50:11.044
+0,Row(oid='65e96afd2dcb157419b92420'),21,2024-03-07 12:51:33.268,,1599998,False,False,nishant@tiwari.com,Nishant Tiwari,nishant@123,2024-03-07 12:51:33.268

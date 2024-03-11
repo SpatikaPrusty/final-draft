@@ -2637,3 +2637,1094 @@ File Path                            PID    Runtime      # DAGs    # Errors  Las
 /opt/airflow/dags/welcome_dag.py                              1           0  0.31s           2024-03-07T10:19:29
 ================================================================================
 [2024-03-07T10:20:55.193+0000] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15
+[2024-03-07T10:20:58.801+0000] {manager.py:469} INFO - Processing files using up to 1 processes at a time 
+[2024-03-07T10:20:58.803+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2024-03-07T10:20:58.805+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-03-07T10:20:58.808+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-03-07T10:20:58.981+0000] {manager.py:741} INFO - There are 5 files in /opt/airflow/dags
+[2024-03-07T10:21:01.771+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/S_Concurrent.py                             1           0  2.34s           2024-03-07T10:21:01
+/opt/airflow/dags/concurrent_dag.py                           0           0
+/opt/airflow/dags/sequence_dag.py                             0           0
+/opt/airflow/dags/S_sequence.py                               0           0
+/opt/airflow/dags/welcome_dag.py                              0           0
+================================================================================
+[2024-03-07T10:21:32.019+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/S_Concurrent.py                             1           0  2.34s           2024-03-07T10:21:01
+/opt/airflow/dags/S_sequence.py                               1           0  1.90s           2024-03-07T10:21:25
+/opt/airflow/dags/sequence_dag.py                             1           0  0.85s           2024-03-07T10:21:28
+/opt/airflow/dags/welcome_dag.py                              1           0  0.72s           2024-03-07T10:21:31
+/opt/airflow/dags/concurrent_dag.py                           1           0  0.52s           2024-03-07T10:21:30
+================================================================================
+[2024-03-07T10:22:02.559+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/S_sequence.py                               1           0  2.33s           2024-03-07T10:21:58
+/opt/airflow/dags/S_Concurrent.py                             1           0  0.53s           2024-03-07T10:21:34
+/opt/airflow/dags/sequence_dag.py                             1           0  0.51s           2024-03-07T10:21:59
+/opt/airflow/dags/welcome_dag.py                              1           0  0.42s           2024-03-07T10:22:02
+/opt/airflow/dags/concurrent_dag.py                           1           0  0.31s           2024-03-07T10:22:00
+================================================================================
+[2024-03-07T10:22:32.635+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/S_sequence.py                               1           0  2.24s           2024-03-07T10:22:30
+/opt/airflow/dags/sequence_dag.py                             1           0  0.62s           2024-03-07T10:22:32
+/opt/airflow/dags/welcome_dag.py                              1           0  0.42s           2024-03-07T10:22:02
+/opt/airflow/dags/concurrent_dag.py                           1           0  0.31s           2024-03-07T10:22:00
+/opt/airflow/dags/S_Concurrent.py                             1           0  0.30s           2024-03-07T10:22:04
+================================================================================
+[2024-03-07T10:23:03.910+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/S_sequence.py                               1           0  3.01s           2024-03-07T10:23:03
+/opt/airflow/dags/sequence_dag.py                             1           0  0.62s           2024-03-07T10:22:32
+/opt/airflow/dags/concurrent_dag.py                           1           0  0.53s           2024-03-07T10:22:34
+/opt/airflow/dags/welcome_dag.py                              1           0  0.42s           2024-03-07T10:22:37
+/opt/airflow/dags/S_Concurrent.py                             1           0  0.41s           2024-03-07T10:22:35
+================================================================================
+[2024-03-07T10:23:36.055+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/S_sequence.py                               1           0  1.11s           2024-03-07T10:23:36
+/opt/airflow/dags/concurrent_dag.py                           1           0  0.85s           2024-03-07T10:23:07
+/opt/airflow/dags/welcome_dag.py                              1           0  0.83s           2024-03-07T10:23:11
+/opt/airflow/dags/S_Concurrent.py                             1           0  0.53s           2024-03-07T10:23:09
+/opt/airflow/dags/sequence_dag.py                             1           0  0.52s           2024-03-07T10:23:05
+================================================================================
+[2024-03-07T10:24:08.738+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/S_sequence.py                               1           0  1.99s           2024-03-07T10:24:08
+/opt/airflow/dags/S_Concurrent.py                             1           0  0.42s           2024-03-07T10:23:40
+/opt/airflow/dags/sequence_dag.py                             1           0  0.41s           2024-03-07T10:23:37
+/opt/airflow/dags/concurrent_dag.py                           1           0  0.32s           2024-03-07T10:23:38
+/opt/airflow/dags/welcome_dag.py                              1           0  0.22s           2024-03-07T10:23:42
+================================================================================
+[2024-03-07T10:24:39.548+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sequence_dag.py                             1           0  0.73s           2024-03-07T10:24:10
+/opt/airflow/dags/welcome_dag.py                              1           0  0.69s           2024-03-07T10:24:16
+/opt/airflow/dags/concurrent_dag.py                           1           0  0.62s           2024-03-07T10:24:12
+/opt/airflow/dags/S_Concurrent.py                             1           0  0.55s           2024-03-07T10:24:14
+/opt/airflow/dags/S_sequence.py                               1           0  0.32s           2024-03-07T10:24:39
+================================================================================
+[2024-03-07T10:25:10.495+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/welcome_dag.py                              1           0  1.23s           2024-03-07T10:24:48
+/opt/airflow/dags/S_sequence.py                               1           0  0.52s           2024-03-07T10:25:10
+/opt/airflow/dags/S_Concurrent.py                             1           0  0.43s           2024-03-07T10:24:45
+/opt/airflow/dags/concurrent_dag.py                           1           0  0.32s           2024-03-07T10:24:43
+/opt/airflow/dags/sequence_dag.py                             1           0  0.32s           2024-03-07T10:24:41
+================================================================================
+[2024-03-07T11:58:40.073+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-03-07T11:58:52.141+0000] {manager.py:741} INFO - There are 5 files in /opt/airflow/dags
+[2024-03-07T11:59:11.857+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/S_Concurrent.py                             1           0  6.11s           2024-03-07T11:59:07
+/opt/airflow/dags/S_sequence.py                               1           0  2.27s           2024-03-07T11:59:11
+/opt/airflow/dags/welcome_dag.py                              1           0  1.23s           2024-03-07T10:24:48
+/opt/airflow/dags/sequence_dag.py                             1           0  0.41s           2024-03-07T10:25:12
+/opt/airflow/dags/concurrent_dag.py                           1           0  0.32s           2024-03-07T10:24:43
+================================================================================
+[2024-03-07T11:59:43.881+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sequence_dag.py                             1           0  1.23s           2024-03-07T11:59:14
+/opt/airflow/dags/S_sequence.py                               1           0  0.92s           2024-03-07T11:59:43
+/opt/airflow/dags/concurrent_dag.py                           1           0  0.82s           2024-03-07T11:59:16
+/opt/airflow/dags/S_Concurrent.py                             1           0  0.71s           2024-03-07T11:59:38
+/opt/airflow/dags/welcome_dag.py                              1           0  0.41s           2024-03-07T11:59:18
+================================================================================
+[2024-03-07T12:00:16.626+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/S_sequence.py                               1           0  1.96s           2024-03-07T12:00:16
+/opt/airflow/dags/S_Concurrent.py                             1           0  0.61s           2024-03-07T12:00:09
+/opt/airflow/dags/concurrent_dag.py                           1           0  0.52s           2024-03-07T11:59:48
+/opt/airflow/dags/sequence_dag.py                             1           0  0.41s           2024-03-07T11:59:45
+/opt/airflow/dags/welcome_dag.py                              1           0  0.21s           2024-03-07T11:59:48
+================================================================================
+[2024-03-07T12:00:47.681+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/concurrent_dag.py                           1           0  1.93s           2024-03-07T12:00:21
+/opt/airflow/dags/S_Concurrent.py                             1           0  0.52s           2024-03-07T12:00:39
+/opt/airflow/dags/welcome_dag.py                              1           0  0.42s           2024-03-07T12:00:22
+/opt/airflow/dags/S_sequence.py                               1           0  0.41s           2024-03-07T12:00:47
+/opt/airflow/dags/sequence_dag.py                             1           0  0.32s           2024-03-07T12:00:18
+================================================================================
+[2024-03-07T12:01:18.558+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/welcome_dag.py                              1           0  0.74s           2024-03-07T12:00:53
+/opt/airflow/dags/S_Concurrent.py                             1           0  0.61s           2024-03-07T12:01:10
+/opt/airflow/dags/S_sequence.py                               1           0  0.31s           2024-03-07T12:01:18
+/opt/airflow/dags/sequence_dag.py                             1           0  0.31s           2024-03-07T12:00:49
+/opt/airflow/dags/concurrent_dag.py                           1           0  0.31s           2024-03-07T12:00:51
+================================================================================
+[2024-03-07T12:01:49.585+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/S_Concurrent.py                             1           0  0.43s           2024-03-07T12:01:41
+/opt/airflow/dags/concurrent_dag.py                           1           0  0.42s           2024-03-07T12:01:22
+/opt/airflow/dags/S_sequence.py                               1           0  0.41s           2024-03-07T12:01:49
+/opt/airflow/dags/sequence_dag.py                             1           0  0.31s           2024-03-07T12:01:19
+/opt/airflow/dags/welcome_dag.py                              1           0  0.21s           2024-03-07T12:01:24
+================================================================================
+[2024-03-07T12:02:19.941+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/concurrent_dag.py                           1           0  0.53s           2024-03-07T12:01:53
+/opt/airflow/dags/sequence_dag.py                             1           0  0.41s           2024-03-07T12:01:51
+/opt/airflow/dags/S_Concurrent.py                             1           0  0.41s           2024-03-07T12:02:12
+/opt/airflow/dags/welcome_dag.py                              1           0  0.31s           2024-03-07T12:01:55
+/opt/airflow/dags/S_sequence.py                               1           0  0.31s           2024-03-07T12:02:19
+================================================================================
+[2024-03-07T12:02:50.975+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/concurrent_dag.py                           1           0  0.41s           2024-03-07T12:02:24
+/opt/airflow/dags/S_Concurrent.py                             1           0  0.41s           2024-03-07T12:02:42
+/opt/airflow/dags/S_sequence.py                               1           0  0.40s           2024-03-07T12:02:50
+/opt/airflow/dags/sequence_dag.py                             1           0  0.31s           2024-03-07T12:02:22
+/opt/airflow/dags/welcome_dag.py                              1           0  0.21s           2024-03-07T12:02:26
+================================================================================
+[2024-03-07T12:03:21.861+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/S_Concurrent.py                             1           0  0.41s           2024-03-07T12:03:13
+/opt/airflow/dags/sequence_dag.py                             1           0  0.31s           2024-03-07T12:02:53
+/opt/airflow/dags/concurrent_dag.py                           1           0  0.31s           2024-03-07T12:02:54
+/opt/airflow/dags/S_sequence.py                               1           0  0.31s           2024-03-07T12:03:21
+/opt/airflow/dags/welcome_dag.py                              1           0  0.22s           2024-03-07T12:02:57
+================================================================================
+[2024-03-07T12:03:41.254+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-03-07T12:03:41.344+0000] {manager.py:741} INFO - There are 5 files in /opt/airflow/dags
+[2024-03-07T12:03:53.135+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/S_sequence.py                               1           0  0.42s           2024-03-07T12:03:53
+/opt/airflow/dags/sequence_dag.py                             1           0  0.41s           2024-03-07T12:03:24
+/opt/airflow/dags/S_Concurrent.py                             1           0  0.31s           2024-03-07T12:03:43
+/opt/airflow/dags/welcome_dag.py                              1           0  0.31s           2024-03-07T12:03:27
+/opt/airflow/dags/concurrent_dag.py                           1           0  0.30s           2024-03-07T12:03:25
+================================================================================
+[2024-03-07T12:04:24.088+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/S_sequence.py                               1           0  0.41s           2024-03-07T12:04:24
+/opt/airflow/dags/welcome_dag.py                              1           0  0.31s           2024-03-07T12:03:58
+/opt/airflow/dags/S_Concurrent.py                             1           0  0.31s           2024-03-07T12:04:14
+/opt/airflow/dags/sequence_dag.py                             1           0  0.31s           2024-03-07T12:03:55
+/opt/airflow/dags/concurrent_dag.py                           1           0  0.30s           2024-03-07T12:03:57
+================================================================================
+[2024-03-07T12:04:55.117+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/S_Concurrent.py                             1           0  0.73s           2024-03-07T12:04:45
+/opt/airflow/dags/S_sequence.py                               1           0  0.51s           2024-03-07T12:04:55
+/opt/airflow/dags/concurrent_dag.py                           1           0  0.40s           2024-03-07T12:04:28
+/opt/airflow/dags/sequence_dag.py                             1           0  0.31s           2024-03-07T12:04:26
+/opt/airflow/dags/welcome_dag.py                              1           0  0.21s           2024-03-07T12:04:29
+================================================================================
+[2024-03-07T12:05:25.940+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sequence_dag.py                             1           0  0.40s           2024-03-07T12:04:57
+/opt/airflow/dags/S_Concurrent.py                             1           0  0.31s           2024-03-07T12:05:16
+/opt/airflow/dags/welcome_dag.py                              1           0  0.31s           2024-03-07T12:05:00
+/opt/airflow/dags/S_sequence.py                               1           0  0.31s           2024-03-07T12:05:25
+/opt/airflow/dags/concurrent_dag.py                           1           0  0.31s           2024-03-07T12:04:59
+================================================================================
+[2024-03-07T12:05:57.801+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/S_sequence.py                               1           0  1.01s           2024-03-07T12:05:57
+/opt/airflow/dags/concurrent_dag.py                           1           0  0.71s           2024-03-07T12:05:30
+/opt/airflow/dags/sequence_dag.py                             1           0  0.42s           2024-03-07T12:05:27
+/opt/airflow/dags/S_Concurrent.py                             1           0  0.41s           2024-03-07T12:05:47
+/opt/airflow/dags/welcome_dag.py                              1           0  0.20s           2024-03-07T12:05:31
+================================================================================
+[2024-03-07T12:06:28.754+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/S_Concurrent.py                             1           0  1.11s           2024-03-07T12:06:18
+/opt/airflow/dags/concurrent_dag.py                           1           0  0.71s           2024-03-07T12:06:01
+/opt/airflow/dags/welcome_dag.py                              1           0  0.54s           2024-03-07T12:06:03
+/opt/airflow/dags/S_sequence.py                               1           0  0.52s           2024-03-07T12:06:28
+/opt/airflow/dags/sequence_dag.py                             1           0  0.30s           2024-03-07T12:05:58
+================================================================================
+[2024-03-07T12:06:59.615+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sequence_dag.py                             1           0  0.81s           2024-03-07T12:06:29
+/opt/airflow/dags/S_sequence.py                               1           0  0.61s           2024-03-07T12:06:59
+/opt/airflow/dags/S_Concurrent.py                             1           0  0.41s           2024-03-07T12:06:49
+/opt/airflow/dags/concurrent_dag.py                           1           0  0.31s           2024-03-07T12:06:32
+/opt/airflow/dags/welcome_dag.py                              1           0  0.21s           2024-03-07T12:06:33
+================================================================================
+[2024-03-07T12:07:30.381+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/S_sequence.py                               1           0  0.41s           2024-03-07T12:07:30
+/opt/airflow/dags/S_Concurrent.py                             1           0  0.31s           2024-03-07T12:07:19
+/opt/airflow/dags/sequence_dag.py                             1           0  0.31s           2024-03-07T12:07:00
+/opt/airflow/dags/concurrent_dag.py                           1           0  0.31s           2024-03-07T12:07:03
+/opt/airflow/dags/welcome_dag.py                              1           0  0.21s           2024-03-07T12:07:04
+================================================================================
+[2024-03-07T12:08:01.104+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/S_Concurrent.py                             1           0  0.41s           2024-03-07T12:07:50
+/opt/airflow/dags/S_sequence.py                               1           0  0.41s           2024-03-07T12:08:01
+/opt/airflow/dags/sequence_dag.py                             1           0  0.31s           2024-03-07T12:07:31
+/opt/airflow/dags/welcome_dag.py                              1           0  0.31s           2024-03-07T12:07:35
+/opt/airflow/dags/concurrent_dag.py                           1           0  0.31s           2024-03-07T12:07:34
+================================================================================
+[2024-03-07T12:08:32.055+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/concurrent_dag.py                           1           0  0.31s           2024-03-07T12:08:05
+/opt/airflow/dags/S_Concurrent.py                             1           0  0.31s           2024-03-07T12:08:21
+/opt/airflow/dags/S_sequence.py                               1           0  0.31s           2024-03-07T12:08:32
+/opt/airflow/dags/sequence_dag.py                             1           0  0.31s           2024-03-07T12:08:01
+/opt/airflow/dags/welcome_dag.py                              1           0  0.21s           2024-03-07T12:08:06
+================================================================================
+[2024-03-07T12:08:42.029+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-03-07T12:08:42.127+0000] {manager.py:741} INFO - There are 5 files in /opt/airflow/dags
+[2024-03-07T12:09:02.704+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/S_Concurrent.py                             1           0  0.31s           2024-03-07T12:08:52
+/opt/airflow/dags/S_sequence.py                               1           0  0.31s           2024-03-07T12:09:02
+/opt/airflow/dags/welcome_dag.py                              1           0  0.31s           2024-03-07T12:08:37
+/opt/airflow/dags/concurrent_dag.py                           1           0  0.30s           2024-03-07T12:08:36
+/opt/airflow/dags/sequence_dag.py                             1           0  0.30s           2024-03-07T12:08:32
+================================================================================
+[2024-03-07T12:09:33.484+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/S_sequence.py                               1           0  0.31s           2024-03-07T12:09:33
+/opt/airflow/dags/concurrent_dag.py                           1           0  0.31s           2024-03-07T12:09:06
+/opt/airflow/dags/welcome_dag.py                              1           0  0.31s           2024-03-07T12:09:07
+/opt/airflow/dags/sequence_dag.py                             1           0  0.31s           2024-03-07T12:09:03
+/opt/airflow/dags/S_Concurrent.py                             1           0  0.30s           2024-03-07T12:09:23
+================================================================================
+[2024-03-07T12:10:04.346+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/S_Concurrent.py                             1           0  0.31s           2024-03-07T12:09:53
+/opt/airflow/dags/concurrent_dag.py                           1           0  0.31s           2024-03-07T12:09:37
+/opt/airflow/dags/S_sequence.py                               1           0  0.31s           2024-03-07T12:10:04
+/opt/airflow/dags/sequence_dag.py                             1           0  0.30s           2024-03-07T12:09:34
+/opt/airflow/dags/welcome_dag.py                              1           0  0.30s           2024-03-07T12:09:38
+================================================================================
+[2024-03-07T12:10:35.221+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/S_Concurrent.py                             1           0  0.41s           2024-03-07T12:10:24
+/opt/airflow/dags/sequence_dag.py                             1           0  0.30s           2024-03-07T12:10:05
+/opt/airflow/dags/concurrent_dag.py                           1           0  0.30s           2024-03-07T12:10:08
+/opt/airflow/dags/S_sequence.py                               1           0  0.30s           2024-03-07T12:10:35
+/opt/airflow/dags/welcome_dag.py                              1           0  0.20s           2024-03-07T12:10:09
+================================================================================
+[2024-03-07T12:11:06.192+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/S_sequence.py                               1           0  0.41s           2024-03-07T12:11:06
+/opt/airflow/dags/sequence_dag.py                             1           0  0.41s           2024-03-07T12:10:36
+/opt/airflow/dags/concurrent_dag.py                           1           0  0.31s           2024-03-07T12:10:39
+/opt/airflow/dags/welcome_dag.py                              1           0  0.31s           2024-03-07T12:10:40
+/opt/airflow/dags/S_Concurrent.py                             1           0  0.30s           2024-03-07T12:10:55
+================================================================================
+[2024-03-07T12:11:36.976+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/concurrent_dag.py                           1           0  0.41s           2024-03-07T12:11:10
+/opt/airflow/dags/S_sequence.py                               1           0  0.31s           2024-03-07T12:11:36
+/opt/airflow/dags/S_Concurrent.py                             1           0  0.31s           2024-03-07T12:11:26
+/opt/airflow/dags/sequence_dag.py                             1           0  0.30s           2024-03-07T12:11:07
+/opt/airflow/dags/welcome_dag.py                              1           0  0.21s           2024-03-07T12:11:11
+================================================================================
+[2024-03-07T12:12:07.795+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/S_sequence.py                               1           0  0.41s           2024-03-07T12:12:07
+/opt/airflow/dags/concurrent_dag.py                           1           0  0.41s           2024-03-07T12:11:41
+/opt/airflow/dags/S_Concurrent.py                             1           0  0.31s           2024-03-07T12:11:57
+/opt/airflow/dags/sequence_dag.py                             1           0  0.30s           2024-03-07T12:11:38
+/opt/airflow/dags/welcome_dag.py                              1           0  0.20s           2024-03-07T12:11:41
+================================================================================
+[2024-03-07T12:12:38.547+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/concurrent_dag.py                           1           0  0.51s           2024-03-07T12:12:12
+/opt/airflow/dags/S_sequence.py                               1           0  0.31s           2024-03-07T12:12:38
+/opt/airflow/dags/S_Concurrent.py                             1           0  0.31s           2024-03-07T12:12:27
+/opt/airflow/dags/sequence_dag.py                             1           0  0.31s           2024-03-07T12:12:09
+/opt/airflow/dags/welcome_dag.py                              1           0  0.21s           2024-03-07T12:12:12
+================================================================================
+[2024-03-07T12:13:09.382+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/concurrent_dag.py                           1           0  0.30s           2024-03-07T12:12:42
+/opt/airflow/dags/sequence_dag.py                             1           0  0.30s           2024-03-07T12:12:40
+/opt/airflow/dags/S_sequence.py                               1           0  0.30s           2024-03-07T12:13:09
+/opt/airflow/dags/S_Concurrent.py                             1           0  0.30s           2024-03-07T12:12:58
+/opt/airflow/dags/welcome_dag.py                              1           0  0.20s           2024-03-07T12:12:44
+================================================================================
+[2024-03-07T12:13:40.107+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/concurrent_dag.py                           1           0  0.31s           2024-03-07T12:13:13
+/opt/airflow/dags/sequence_dag.py                             1           0  0.30s           2024-03-07T12:13:10
+/opt/airflow/dags/S_sequence.py                               1           0  0.30s           2024-03-07T12:13:40
+/opt/airflow/dags/S_Concurrent.py                             1           0  0.30s           2024-03-07T12:13:29
+/opt/airflow/dags/welcome_dag.py                              1           0  0.20s           2024-03-07T12:13:15
+================================================================================
+[2024-03-07T12:13:42.594+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-03-07T12:13:42.661+0000] {manager.py:741} INFO - There are 5 files in /opt/airflow/dags
+[2024-03-07T12:14:10.111+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/S_Concurrent.py                             1           0  0.31s           2024-03-07T12:14:00
+/opt/airflow/dags/concurrent_dag.py                           1           0  0.31s           2024-03-07T12:13:44
+/opt/airflow/dags/sequence_dag.py                             1           0  0.30s           2024-03-07T12:13:41
+/opt/airflow/dags/S_sequence.py                               1           0  0.30s           2024-03-07T12:13:40
+/opt/airflow/dags/welcome_dag.py                              1           0  0.20s           2024-03-07T12:13:46
+================================================================================
+[2024-03-07T12:14:41.599+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/S_Concurrent.py                             1           0  0.51s           2024-03-07T12:14:31
+/opt/airflow/dags/S_sequence.py                               1           0  0.41s           2024-03-07T12:14:41
+/opt/airflow/dags/concurrent_dag.py                           1           0  0.41s           2024-03-07T12:14:15
+/opt/airflow/dags/sequence_dag.py                             1           0  0.40s           2024-03-07T12:14:12
+/opt/airflow/dags/welcome_dag.py                              1           0  0.30s           2024-03-07T12:14:17
+================================================================================
+[2024-03-07T12:15:12.423+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/S_Concurrent.py                             1           0  0.41s           2024-03-07T12:15:02
+/opt/airflow/dags/concurrent_dag.py                           1           0  0.31s           2024-03-07T12:14:46
+/opt/airflow/dags/S_sequence.py                               1           0  0.31s           2024-03-07T12:15:12
+/opt/airflow/dags/sequence_dag.py                             1           0  0.30s           2024-03-07T12:14:43
+/opt/airflow/dags/welcome_dag.py                              1           0  0.20s           2024-03-07T12:14:47
+================================================================================
+[2024-03-07T12:15:43.240+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/S_Concurrent.py                             1           0  0.31s           2024-03-07T12:15:32
+/opt/airflow/dags/concurrent_dag.py                           1           0  0.31s           2024-03-07T12:15:17
+/opt/airflow/dags/sequence_dag.py                             1           0  0.31s           2024-03-07T12:15:13
+/opt/airflow/dags/S_sequence.py                               1           0  0.30s           2024-03-07T12:15:43
+/opt/airflow/dags/welcome_dag.py                              1           0  0.20s           2024-03-07T12:15:18
+================================================================================
+[2024-03-07T12:16:14.139+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/concurrent_dag.py                           1           0  0.31s           2024-03-07T12:15:48
+/opt/airflow/dags/S_sequence.py                               1           0  0.30s           2024-03-07T12:16:14
+/opt/airflow/dags/S_Concurrent.py                             1           0  0.30s           2024-03-07T12:16:03
+/opt/airflow/dags/sequence_dag.py                             1           0  0.30s           2024-03-07T12:15:44
+/opt/airflow/dags/welcome_dag.py                              1           0  0.20s           2024-03-07T12:15:49
+================================================================================
+[2024-03-07T12:16:44.925+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/S_sequence.py                               1           0  0.32s           2024-03-07T12:16:44
+/opt/airflow/dags/concurrent_dag.py                           1           0  0.31s           2024-03-07T12:16:19
+/opt/airflow/dags/sequence_dag.py                             1           0  0.31s           2024-03-07T12:16:15
+/opt/airflow/dags/S_Concurrent.py                             1           0  0.31s           2024-03-07T12:16:34
+/opt/airflow/dags/welcome_dag.py                              1           0  0.31s           2024-03-07T12:16:20
+================================================================================
+[2024-03-07T12:17:15.945+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/S_Concurrent.py                             1           0  0.41s           2024-03-07T12:17:05
+/opt/airflow/dags/sequence_dag.py                             1           0  0.41s           2024-03-07T12:16:46
+/opt/airflow/dags/welcome_dag.py                              1           0  0.31s           2024-03-07T12:16:51
+/opt/airflow/dags/concurrent_dag.py                           1           0  0.30s           2024-03-07T12:16:50
+/opt/airflow/dags/S_sequence.py                               1           0  0.30s           2024-03-07T12:17:15
+================================================================================
+[2024-03-07T12:17:47.078+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sequence_dag.py                             1           0  0.51s           2024-03-07T12:17:17
+/opt/airflow/dags/S_sequence.py                               1           0  0.41s           2024-03-07T12:17:47
+/opt/airflow/dags/concurrent_dag.py                           1           0  0.32s           2024-03-07T12:17:20
+/opt/airflow/dags/welcome_dag.py                              1           0  0.31s           2024-03-07T12:17:22
+/opt/airflow/dags/S_Concurrent.py                             1           0  0.31s           2024-03-07T12:17:36
+================================================================================
+[2024-03-07T12:18:17.927+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/S_sequence.py                               1           0  0.41s           2024-03-07T12:18:17
+/opt/airflow/dags/S_Concurrent.py                             1           0  0.31s           2024-03-07T12:18:07
+/opt/airflow/dags/welcome_dag.py                              1           0  0.31s           2024-03-07T12:17:53
+/opt/airflow/dags/sequence_dag.py                             1           0  0.31s           2024-03-07T12:17:48
+/opt/airflow/dags/concurrent_dag.py                           1           0  0.30s           2024-03-07T12:17:51
+================================================================================
+[2024-03-07T12:18:43.425+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-03-07T12:18:43.510+0000] {manager.py:741} INFO - There are 5 files in /opt/airflow/dags
+[2024-03-07T12:18:48.698+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sequence_dag.py                             1           0  0.31s           2024-03-07T12:18:19
+/opt/airflow/dags/concurrent_dag.py                           1           0  0.31s           2024-03-07T12:18:22
+/opt/airflow/dags/S_sequence.py                               1           0  0.31s           2024-03-07T12:18:48
+/opt/airflow/dags/S_Concurrent.py                             1           0  0.30s           2024-03-07T12:18:38
+/opt/airflow/dags/welcome_dag.py                              1           0  0.21s           2024-03-07T12:18:24
+================================================================================
+[2024-03-07T12:19:19.747+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/S_Concurrent.py                             1           0  0.41s           2024-03-07T12:19:09
+/opt/airflow/dags/S_sequence.py                               1           0  0.31s           2024-03-07T12:19:19
+/opt/airflow/dags/concurrent_dag.py                           1           0  0.31s           2024-03-07T12:18:53
+/opt/airflow/dags/welcome_dag.py                              1           0  0.31s           2024-03-07T12:18:55
+/opt/airflow/dags/sequence_dag.py                             1           0  0.31s           2024-03-07T12:18:50
+================================================================================
+[2024-03-07T12:19:50.415+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sequence_dag.py                             1           0  0.51s           2024-03-07T12:19:21
+/opt/airflow/dags/S_sequence.py                               1           0  0.41s           2024-03-07T12:19:50
+/opt/airflow/dags/concurrent_dag.py                           1           0  0.41s           2024-03-07T12:19:24
+/opt/airflow/dags/S_Concurrent.py                             1           0  0.31s           2024-03-07T12:19:39
+/opt/airflow/dags/welcome_dag.py                              1           0  0.31s           2024-03-07T12:19:25
+================================================================================
+[2024-03-07T12:20:21.073+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/concurrent_dag.py                           1           0  0.41s           2024-03-07T12:19:55
+/opt/airflow/dags/S_sequence.py                               1           0  0.31s           2024-03-07T12:20:21
+/opt/airflow/dags/sequence_dag.py                             1           0  0.31s           2024-03-07T12:19:51
+/opt/airflow/dags/S_Concurrent.py                             1           0  0.31s           2024-03-07T12:20:10
+/opt/airflow/dags/welcome_dag.py                              1           0  0.20s           2024-03-07T12:19:56
+================================================================================
+[2024-03-07T12:20:51.909+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sequence_dag.py                             1           0  0.31s           2024-03-07T12:20:22
+/opt/airflow/dags/S_sequence.py                               1           0  0.31s           2024-03-07T12:20:51
+/opt/airflow/dags/S_Concurrent.py                             1           0  0.31s           2024-03-07T12:20:41
+/opt/airflow/dags/concurrent_dag.py                           1           0  0.30s           2024-03-07T12:20:26
+/opt/airflow/dags/welcome_dag.py                              1           0  0.20s           2024-03-07T12:20:28
+================================================================================
+[2024-03-07T12:21:22.658+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/concurrent_dag.py                           1           0  0.31s           2024-03-07T12:20:56
+/opt/airflow/dags/S_Concurrent.py                             1           0  0.31s           2024-03-07T12:21:11
+/opt/airflow/dags/welcome_dag.py                              1           0  0.31s           2024-03-07T12:20:59
+/opt/airflow/dags/sequence_dag.py                             1           0  0.31s           2024-03-07T12:20:53
+/opt/airflow/dags/S_sequence.py                               1           0  0.31s           2024-03-07T12:21:22
+================================================================================
+[2024-03-07T12:21:53.278+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/S_Concurrent.py                             1           0  0.31s           2024-03-07T12:21:42
+/opt/airflow/dags/S_sequence.py                               1           0  0.31s           2024-03-07T12:21:53
+/opt/airflow/dags/sequence_dag.py                             1           0  0.30s           2024-03-07T12:21:24
+/opt/airflow/dags/concurrent_dag.py                           1           0  0.30s           2024-03-07T12:21:27
+/opt/airflow/dags/welcome_dag.py                              1           0  0.20s           2024-03-07T12:21:29
+================================================================================
+[2024-03-07T12:22:23.811+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/S_sequence.py                               1           0  0.31s           2024-03-07T12:22:23
+/opt/airflow/dags/sequence_dag.py                             1           0  0.31s           2024-03-07T12:21:55
+/opt/airflow/dags/S_Concurrent.py                             1           0  0.31s           2024-03-07T12:22:13
+/opt/airflow/dags/welcome_dag.py                              1           0  0.30s           2024-03-07T12:22:00
+/opt/airflow/dags/concurrent_dag.py                           1           0  0.30s           2024-03-07T12:21:58
+================================================================================
+[2024-03-07T12:22:54.815+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/S_Concurrent.py                             1           0  0.41s           2024-03-07T12:22:44
+/opt/airflow/dags/S_sequence.py                               1           0  0.31s           2024-03-07T12:22:54
+/opt/airflow/dags/concurrent_dag.py                           1           0  0.30s           2024-03-07T12:22:28
+/opt/airflow/dags/sequence_dag.py                             1           0  0.30s           2024-03-07T12:22:26
+/opt/airflow/dags/welcome_dag.py                              1           0  0.21s           2024-03-07T12:22:32
+================================================================================
+[2024-03-07T12:23:25.650+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/S_sequence.py                               1           0  0.41s           2024-03-07T12:23:25
+/opt/airflow/dags/sequence_dag.py                             1           0  0.41s           2024-03-07T12:22:58
+/opt/airflow/dags/concurrent_dag.py                           1           0  0.40s           2024-03-07T12:22:59
+/opt/airflow/dags/S_Concurrent.py                             1           0  0.31s           2024-03-07T12:23:14
+/opt/airflow/dags/welcome_dag.py                              1           0  0.21s           2024-03-07T12:23:03
+================================================================================
+[2024-03-07T12:23:44.238+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-03-07T12:23:44.323+0000] {manager.py:741} INFO - There are 5 files in /opt/airflow/dags
+[2024-03-07T12:23:56.078+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/S_Concurrent.py                             1           0  0.41s           2024-03-07T12:23:45
+/opt/airflow/dags/welcome_dag.py                              1           0  0.31s           2024-03-07T12:23:34
+/opt/airflow/dags/sequence_dag.py                             1           0  0.31s           2024-03-07T12:23:29
+/opt/airflow/dags/S_sequence.py                               1           0  0.31s           2024-03-07T12:23:56
+/opt/airflow/dags/concurrent_dag.py                           1           0  0.30s           2024-03-07T12:23:30
+================================================================================
+[2024-03-07T12:24:27.043+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/concurrent_dag.py                           1           0  0.41s           2024-03-07T12:24:01
+/opt/airflow/dags/S_sequence.py                               1           0  0.31s           2024-03-07T12:24:27
+/opt/airflow/dags/sequence_dag.py                             1           0  0.31s           2024-03-07T12:24:00
+/opt/airflow/dags/S_Concurrent.py                             1           0  0.31s           2024-03-07T12:24:16
+/opt/airflow/dags/welcome_dag.py                              1           0  0.21s           2024-03-07T12:24:05
+================================================================================
+[2024-03-07T12:24:57.893+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/S_Concurrent.py                             1           0  0.31s           2024-03-07T12:24:47
+/opt/airflow/dags/S_sequence.py                               1           0  0.31s           2024-03-07T12:24:57
+/opt/airflow/dags/sequence_dag.py                             1           0  0.31s           2024-03-07T12:24:31
+/opt/airflow/dags/concurrent_dag.py                           1           0  0.30s           2024-03-07T12:24:32
+/opt/airflow/dags/welcome_dag.py                              1           0  0.21s           2024-03-07T12:24:36
+================================================================================
+[2024-03-07T12:25:28.324+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/S_sequence.py                               1           0  0.41s           2024-03-07T12:25:28
+/opt/airflow/dags/sequence_dag.py                             1           0  0.31s           2024-03-07T12:25:02
+/opt/airflow/dags/concurrent_dag.py                           1           0  0.31s           2024-03-07T12:25:02
+/opt/airflow/dags/S_Concurrent.py                             1           0  0.31s           2024-03-07T12:25:18
+/opt/airflow/dags/welcome_dag.py                              1           0  0.30s           2024-03-07T12:25:07
+================================================================================
+[2024-03-07T12:25:59.238+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/S_Concurrent.py                             1           0  0.31s           2024-03-07T12:25:48
+/opt/airflow/dags/concurrent_dag.py                           1           0  0.31s           2024-03-07T12:25:34
+/opt/airflow/dags/sequence_dag.py                             1           0  0.30s           2024-03-07T12:25:33
+/opt/airflow/dags/S_sequence.py                               1           0  0.30s           2024-03-07T12:25:59
+/opt/airflow/dags/welcome_dag.py                              1           0  0.20s           2024-03-07T12:25:38
+================================================================================
+[2024-03-07T12:26:30.302+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/S_Concurrent.py                             1           0  0.40s           2024-03-07T12:26:19
+/opt/airflow/dags/S_sequence.py                               1           0  0.31s           2024-03-07T12:26:30
+/opt/airflow/dags/sequence_dag.py                             1           0  0.30s           2024-03-07T12:26:04
+/opt/airflow/dags/concurrent_dag.py                           1           0  0.30s           2024-03-07T12:26:05
+/opt/airflow/dags/welcome_dag.py                              1           0  0.20s           2024-03-07T12:26:09
+================================================================================
+[2024-03-07T12:27:01.001+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/concurrent_dag.py                           1           0  0.51s           2024-03-07T12:26:36
+/opt/airflow/dags/S_sequence.py                               1           0  0.31s           2024-03-07T12:27:01
+/opt/airflow/dags/S_Concurrent.py                             1           0  0.31s           2024-03-07T12:26:50
+/opt/airflow/dags/sequence_dag.py                             1           0  0.30s           2024-03-07T12:26:35
+/opt/airflow/dags/welcome_dag.py                              1           0  0.21s           2024-03-07T12:26:40
+================================================================================
+[2024-03-07T12:27:42.520+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/S_sequence.py                               1           0  3.27s           2024-03-07T12:27:42
+/opt/airflow/dags/concurrent_dag.py                           1           0  0.30s           2024-03-07T12:27:07
+/opt/airflow/dags/S_Concurrent.py                             1           0  0.30s           2024-03-07T12:27:21
+/opt/airflow/dags/sequence_dag.py                             1           0  0.30s           2024-03-07T12:27:06
+/opt/airflow/dags/welcome_dag.py                              1           0  0.20s           2024-03-07T12:27:10
+================================================================================
+[2024-03-07T12:28:15.465+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/concurrent_dag.py                           1           0  4.11s           2024-03-07T12:27:59
+/opt/airflow/dags/sequence_dag.py                             1           0  4.02s           2024-03-07T12:27:48
+/opt/airflow/dags/welcome_dag.py                              1           0  2.33s           2024-03-07T12:28:06
+/opt/airflow/dags/S_Concurrent.py                             1           0  1.95s           2024-03-07T12:28:03
+/opt/airflow/dags/S_sequence.py                               1           0  0.62s           2024-03-07T12:28:15
+================================================================================
+[2024-03-07T12:28:44.912+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-03-07T12:28:45.081+0000] {manager.py:741} INFO - There are 5 files in /opt/airflow/dags
+[2024-03-07T12:28:47.413+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sequence_dag.py                             1           0  0.98s           2024-03-07T12:28:20
+/opt/airflow/dags/concurrent_dag.py                           1           0  0.86s           2024-03-07T12:28:31
+/opt/airflow/dags/S_sequence.py                               1           0  0.81s           2024-03-07T12:28:47
+/opt/airflow/dags/S_Concurrent.py                             1           0  0.72s           2024-03-07T12:28:34
+/opt/airflow/dags/welcome_dag.py                              1           0  0.32s           2024-03-07T12:28:37
+================================================================================
+[2024-03-07T12:29:20.160+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/S_sequence.py                               1           0  2.42s           2024-03-07T12:29:20
+/opt/airflow/dags/S_Concurrent.py                             1           0  0.92s           2024-03-07T12:29:05
+/opt/airflow/dags/welcome_dag.py                              1           0  0.63s           2024-03-07T12:29:08
+/opt/airflow/dags/sequence_dag.py                             1           0  0.51s           2024-03-07T12:28:51
+/opt/airflow/dags/concurrent_dag.py                           1           0  0.41s           2024-03-07T12:29:02
+================================================================================
+[2024-03-07T12:29:51.169+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/S_sequence.py                               1           0  0.72s           2024-03-07T12:29:51
+/opt/airflow/dags/welcome_dag.py                              1           0  0.57s           2024-03-07T12:29:39
+/opt/airflow/dags/concurrent_dag.py                           1           0  0.41s           2024-03-07T12:29:33
+/opt/airflow/dags/S_Concurrent.py                             1           0  0.40s           2024-03-07T12:29:37
+/opt/airflow/dags/sequence_dag.py                             1           0  0.31s           2024-03-07T12:29:21
+================================================================================
+[2024-03-07T12:30:21.790+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sequence_dag.py                             1           0  0.61s           2024-03-07T12:29:53
+/opt/airflow/dags/concurrent_dag.py                           1           0  0.52s           2024-03-07T12:30:04
+/opt/airflow/dags/S_Concurrent.py                             1           0  0.41s           2024-03-07T12:30:08
+/opt/airflow/dags/S_sequence.py                               1           0  0.31s           2024-03-07T12:30:21
+/opt/airflow/dags/welcome_dag.py                              1           0  0.21s           2024-03-07T12:30:10
+================================================================================
+[2024-03-07T12:30:52.327+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sequence_dag.py                             1           0  0.46s           2024-03-07T12:30:23
+/opt/airflow/dags/S_Concurrent.py                             1           0  0.43s           2024-03-07T12:30:39
+/opt/airflow/dags/concurrent_dag.py                           1           0  0.31s           2024-03-07T12:30:35
+/opt/airflow/dags/welcome_dag.py                              1           0  0.31s           2024-03-07T12:30:41
+/opt/airflow/dags/S_sequence.py                               1           0  0.31s           2024-03-07T12:30:52
+================================================================================
+[2024-03-07T12:31:22.773+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/S_sequence.py                               1           0  0.31s           2024-03-07T12:31:22
+/opt/airflow/dags/sequence_dag.py                             1           0  0.31s           2024-03-07T12:30:54
+/opt/airflow/dags/S_Concurrent.py                             1           0  0.31s           2024-03-07T12:31:10
+/opt/airflow/dags/concurrent_dag.py                           1           0  0.31s           2024-03-07T12:31:06
+/opt/airflow/dags/welcome_dag.py                              1           0  0.20s           2024-03-07T12:31:12
+================================================================================
+[2024-03-07T12:31:53.487+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/concurrent_dag.py                           1           0  0.51s           2024-03-07T12:31:38
+/opt/airflow/dags/sequence_dag.py                             1           0  0.41s           2024-03-07T12:31:26
+/opt/airflow/dags/S_sequence.py                               1           0  0.33s           2024-03-07T12:31:53
+/opt/airflow/dags/S_Concurrent.py                             1           0  0.30s           2024-03-07T12:31:41
+/opt/airflow/dags/welcome_dag.py                              1           0  0.21s           2024-03-07T12:31:43
+================================================================================
+[2024-03-07T12:32:24.159+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/S_sequence.py                               1           0  0.62s           2024-03-07T12:32:24
+/opt/airflow/dags/S_Concurrent.py                             1           0  0.41s           2024-03-07T12:32:12
+/opt/airflow/dags/sequence_dag.py                             1           0  0.31s           2024-03-07T12:31:56
+/opt/airflow/dags/concurrent_dag.py                           1           0  0.31s           2024-03-07T12:32:08
+/opt/airflow/dags/welcome_dag.py                              1           0  0.21s           2024-03-07T12:32:13
+================================================================================
+[2024-03-07T12:32:55.006+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/S_sequence.py                               1           0  0.51s           2024-03-07T12:32:55
+/opt/airflow/dags/concurrent_dag.py                           1           0  0.41s           2024-03-07T12:32:39
+/opt/airflow/dags/sequence_dag.py                             1           0  0.31s           2024-03-07T12:32:27
+/opt/airflow/dags/S_Concurrent.py                             1           0  0.31s           2024-03-07T12:32:43
+/opt/airflow/dags/welcome_dag.py                              1           0  0.21s           2024-03-07T12:32:44
+================================================================================
+[2024-03-07T12:33:25.819+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sequence_dag.py                             1           0  0.31s           2024-03-07T12:32:58
+/opt/airflow/dags/S_sequence.py                               1           0  0.31s           2024-03-07T12:33:25
+/opt/airflow/dags/concurrent_dag.py                           1           0  0.31s           2024-03-07T12:33:10
+/opt/airflow/dags/S_Concurrent.py                             1           0  0.31s           2024-03-07T12:33:14
+/opt/airflow/dags/welcome_dag.py                              1           0  0.21s           2024-03-07T12:33:15
+================================================================================
+[2024-03-07T12:33:45.148+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-03-07T12:33:45.238+0000] {manager.py:741} INFO - There are 5 files in /opt/airflow/dags
+[2024-03-07T12:33:56.659+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/concurrent_dag.py                           1           0  0.31s           2024-03-07T12:33:41
+/opt/airflow/dags/sequence_dag.py                             1           0  0.31s           2024-03-07T12:33:29
+/opt/airflow/dags/S_sequence.py                               1           0  0.31s           2024-03-07T12:33:56
+/opt/airflow/dags/S_Concurrent.py                             1           0  0.30s           2024-03-07T12:33:45
+/opt/airflow/dags/welcome_dag.py                              1           0  0.20s           2024-03-07T12:33:46
+================================================================================
+[2024-03-07T12:34:27.184+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/concurrent_dag.py                           1           0  0.41s           2024-03-07T12:34:12
+/opt/airflow/dags/S_Concurrent.py                             1           0  0.31s           2024-03-07T12:34:16
+/opt/airflow/dags/sequence_dag.py                             1           0  0.31s           2024-03-07T12:34:01
+/opt/airflow/dags/welcome_dag.py                              1           0  0.31s           2024-03-07T12:34:17
+/opt/airflow/dags/S_sequence.py                               1           0  0.31s           2024-03-07T12:34:27
+================================================================================
+[2024-03-07T12:34:58.234+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/S_Concurrent.py                             1           0  0.52s           2024-03-07T12:34:47
+/opt/airflow/dags/S_sequence.py                               1           0  0.41s           2024-03-07T12:34:58
+/opt/airflow/dags/concurrent_dag.py                           1           0  0.41s           2024-03-07T12:34:42
+/opt/airflow/dags/sequence_dag.py                             1           0  0.41s           2024-03-07T12:34:32
+/opt/airflow/dags/welcome_dag.py                              1           0  0.21s           2024-03-07T12:34:49
+================================================================================
+[2024-03-07T12:35:30.428+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/S_sequence.py                               1           0  1.70s           2024-03-07T12:35:30
+/opt/airflow/dags/sequence_dag.py                             1           0  0.61s           2024-03-07T12:35:03
+/opt/airflow/dags/S_Concurrent.py                             1           0  0.53s           2024-03-07T12:35:19
+/opt/airflow/dags/welcome_dag.py                              1           0  0.42s           2024-03-07T12:35:20
+/opt/airflow/dags/concurrent_dag.py                           1           0  0.31s           2024-03-07T12:35:13
+================================================================================
+[2024-03-07T12:36:01.221+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/concurrent_dag.py                           1           0  1.11s           2024-03-07T12:35:45
+/opt/airflow/dags/S_Concurrent.py                             1           0  0.83s           2024-03-07T12:35:51
+/opt/airflow/dags/sequence_dag.py                             1           0  0.51s           2024-03-07T12:35:34
+/opt/airflow/dags/S_sequence.py                               1           0  0.41s           2024-03-07T12:36:01
+/opt/airflow/dags/welcome_dag.py                              1           0  0.31s           2024-03-07T12:35:53
+================================================================================
+[2024-03-07T12:36:33.885+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/S_sequence.py                               1           0  0.84s           2024-03-07T12:36:33
+/opt/airflow/dags/concurrent_dag.py                           1           0  0.61s           2024-03-07T12:36:15
+/opt/airflow/dags/sequence_dag.py                             1           0  0.31s           2024-03-07T12:36:05
+/opt/airflow/dags/welcome_dag.py                              1           0  0.31s           2024-03-07T12:36:24
+/opt/airflow/dags/S_Concurrent.py                             1           0  0.31s           2024-03-07T12:36:22
+================================================================================
+[2024-03-07T12:37:32.547+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/S_Concurrent.py                             1           0  29.24s          2024-03-07T12:37:32
+/opt/airflow/dags/concurrent_dag.py                           1           0  9.73s           2024-03-07T12:36:56
+/opt/airflow/dags/sequence_dag.py                             1           0  1.12s           2024-03-07T12:36:37
+/opt/airflow/dags/S_sequence.py                               1           0  0.84s           2024-03-07T12:36:33
+/opt/airflow/dags/welcome_dag.py                              1           0  0.31s           2024-03-07T12:36:24
+================================================================================
+[2024-03-07T12:38:03.510+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/concurrent_dag.py                           1           0  0.81s           2024-03-07T12:37:41
+/opt/airflow/dags/sequence_dag.py                             1           0  0.64s           2024-03-07T12:37:39
+/opt/airflow/dags/S_Concurrent.py                             1           0  0.52s           2024-03-07T12:38:03
+/opt/airflow/dags/S_sequence.py                               1           0  0.51s           2024-03-07T12:37:37
+/opt/airflow/dags/welcome_dag.py                              1           0  0.42s           2024-03-07T12:37:36
+================================================================================
+[2024-03-07T12:38:35.224+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/S_Concurrent.py                             1           0  0.71s           2024-03-07T12:38:35
+/opt/airflow/dags/S_sequence.py                               1           0  0.61s           2024-03-07T12:38:09
+/opt/airflow/dags/concurrent_dag.py                           1           0  0.41s           2024-03-07T12:38:12
+/opt/airflow/dags/sequence_dag.py                             1           0  0.41s           2024-03-07T12:38:10
+/opt/airflow/dags/welcome_dag.py                              1           0  0.31s           2024-03-07T12:38:07
+================================================================================
+[2024-03-07T12:38:45.277+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-03-07T12:38:45.407+0000] {manager.py:741} INFO - There are 5 files in /opt/airflow/dags
+[2024-03-07T12:39:07.737+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/S_Concurrent.py                             1           0  2.10s           2024-03-07T12:39:07
+/opt/airflow/dags/S_sequence.py                               1           0  1.12s           2024-03-07T12:38:43
+/opt/airflow/dags/welcome_dag.py                              1           0  0.93s           2024-03-07T12:38:39
+/opt/airflow/dags/concurrent_dag.py                           1           0  0.62s           2024-03-07T12:38:48
+/opt/airflow/dags/sequence_dag.py                             1           0  0.61s           2024-03-07T12:38:46
+================================================================================
+[2024-03-07T12:39:38.761+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/welcome_dag.py                              1           0  1.91s           2024-03-07T12:39:12
+/opt/airflow/dags/S_sequence.py                               1           0  1.11s           2024-03-07T12:39:18
+/opt/airflow/dags/S_Concurrent.py                             1           0  0.62s           2024-03-07T12:39:38
+/opt/airflow/dags/concurrent_dag.py                           1           0  0.41s           2024-03-07T12:39:21
+/opt/airflow/dags/sequence_dag.py                             1           0  0.41s           2024-03-07T12:39:19
+================================================================================
+[2024-03-07T12:40:09.677+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sequence_dag.py                             1           0  0.61s           2024-03-07T12:39:51
+/opt/airflow/dags/concurrent_dag.py                           1           0  0.52s           2024-03-07T12:39:52
+/opt/airflow/dags/S_Concurrent.py                             1           0  0.51s           2024-03-07T12:40:09
+/opt/airflow/dags/S_sequence.py                               1           0  0.41s           2024-03-07T12:39:49
+/opt/airflow/dags/welcome_dag.py                              1           0  0.31s           2024-03-07T12:39:42
+================================================================================
+[2024-03-07T12:40:27.224+0000] {manager.py:1129} WARNING - Skipping processing of missing file: /opt/airflow/dags/S_Concurrent.py
+[2024-03-07T12:40:31.763+0000] {manager.py:1129} WARNING - Skipping processing of missing file: /opt/airflow/dags/S_sequence.py
+[2024-03-07T12:40:39.835+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/welcome_dag.py                              1           0  0.62s           2024-03-07T12:40:13
+/opt/airflow/dags/concurrent_dag.py                           1           0  0.51s           2024-03-07T12:40:23
+/opt/airflow/dags/sequence_dag.py                             1           0  0.42s           2024-03-07T12:40:22
+================================================================================

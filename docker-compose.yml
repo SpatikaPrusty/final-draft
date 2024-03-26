@@ -44,6 +44,12 @@ services:
       - "3000:3000"
     networks:
       - app-network
+  prometheus:
+      image: prom/prometheus
+      ports:
+        - 9090:9090
+      volumes:
+        - ./prometheus-config.yml:/etc/prometheus/prometheus.yml
 
 networks:
     app-network:

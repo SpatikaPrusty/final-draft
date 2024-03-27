@@ -23,7 +23,7 @@ const FindPolicyPage = () => {
 
     const handleFindPolicy = async () => {
         try {
-            const response = await axios.post("http://localhost:3000/policy", formData);
+            const response = await axios.post("https://backend-claims.onrender.com/policy", formData);
             console.log("Response data:", response.data);
             if (response.status === 200) {
                 navigate(`/suggested-policy`, { state: { suggestedPolicy: response.data.suggestedPolicy, mail:formData.mail } });

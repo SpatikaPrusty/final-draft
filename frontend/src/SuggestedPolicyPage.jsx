@@ -13,7 +13,7 @@ const SuggestedPolicyPage = () => {
     try {
       
       // Make a request to your backend to store the user_id and policy number
-      const response = await axios.post('http://localhost:3000/policyHolder', {
+      const response = await axios.post('https://backend-claims.onrender.com/policyHolder', {
         mail: mail,
         policyNum: suggestedPolicy.policyNum,
       });

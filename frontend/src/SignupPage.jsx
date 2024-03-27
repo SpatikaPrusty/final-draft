@@ -30,7 +30,7 @@ const SignupPage = () => {
         e.preventDefault();
         
         try {
-            await axios.post('http://localhost:4000/register', formData);
+            await axios.post('https://backend-claims.onrender.com/register', formData);
             setSubmitted(true);
         } catch (error) {
             console.error('Error submitting form:', error);
